@@ -5,19 +5,19 @@ This program takes the somewhat messy output that swim coaches get, reorganizes 
 1) Definitions and Excel reading
 
 2) Creates 3 dataframes:
-  1. All swims normalized by percent
-  2. All swims with time measured in the change of seconds from the first swim
-  3. The season bests of the raw drops dataframe above
+  - All swims normalized by percent
+  - All swims with time measured in the change of seconds from the first swim
+  - The season bests of the raw drops dataframe above
 
 3) Writes the first dataframe to excel for continuation of this project in R
 
 4) Generates scatter plots and applies linear regression for the following parameters:
-  1. Every swim normalized by percent (NBP)
-  2. Comparison of Male and Female improvement NBP
-  3. Comparison of training group improvement NBP
-  4. Comparison of events by raw time drop
-  5. Comparison of each year's improvements NBP
-  6. Every season best NBP
+  - Every swim normalized by percent (NBP)
+  - Comparison of Male and Female improvement NBP
+  - Comparison of training group improvement NBP
+  - Comparison of events by raw time drop
+  - Comparison of each year's improvements NBP
+  - Every season best NBP
  
 5) Prepares a dataframe for feature analysis isolating features Sex, Training Group, Event, Percent Time Drop using career bests only
 
